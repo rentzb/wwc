@@ -1,0 +1,23 @@
+Package: wwc
+Type: Package
+Title: A Package With Some Helper Tools for Calculating Values for the What Works Clearinghouse (WWC)
+Version: 0.1.0
+Authors@R: 
+    person("Bradley", "Rentz", email = "bradley.rentz@gmail.com",
+       role = c("aut","cre"),
+       comment = c(ORCID = "0000-0002-2893-6105"))
+Description: This package provides several helper functions for calculating common values
+    for evaluating whether a study meets the Work Works Clearinghouse (WWC) standards.
+    Currently the package identifies whether measures for QEDs meet baseline equivalence standards.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports: 
+    cobalt (>= 4.5.5),
+    dplyr (>= 1.1.4),
+    MatchIt (>= 4.7.0),
+    tibble (>= 3.2.1)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
