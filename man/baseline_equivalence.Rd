@@ -4,10 +4,12 @@
 \alias{baseline_equivalence}
 \title{Calculate whether matched measures meet WWC standards for baseline equivalence}
 \usage{
-baseline_equivalence(psm)
+baseline_equivalence(psm, plot = TRUE)
 }
 \arguments{
 \item{psm}{Output from MatchIt}
+
+\item{plot}{Logical. Whether to include a plot or not.}
 }
 \value{
 A data frame with columns variable, type of variable, the equivalence measure value, whether baseline equivalence was met, and the baseline equivalence measure used.

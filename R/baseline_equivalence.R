@@ -1,6 +1,7 @@
 #' Calculate whether matched measures meet WWC standards for baseline equivalence
 #'
 #' @param psm Output from MatchIt
+#' @param plot Logical. Whether to include a plot or not.
 #'
 #' @return A data frame with columns variable, type of variable, the equivalence measure value, whether baseline equivalence was met, and the baseline equivalence measure used.
 #' @export
