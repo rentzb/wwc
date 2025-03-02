@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# wwc
+# WWC <a href="https://rentzb.github.io/wwc/"><img src="man/figures/logo.png" align="right" height="139" alt="wwc website" /></a>
 
 <!-- badges: start -->
 <!-- badges: end -->
