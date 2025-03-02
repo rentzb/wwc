@@ -18,7 +18,7 @@ A data frame with columns variable, type of variable, the equivalence measure va
 Calculate whether matched measures meet WWC standards for baseline equivalence
 }
 \examples{
-library(MatchIt); data("lalonde", package = "cobalt")
+library(MatchIt); library(magrittr); library(ggplot2); data("lalonde", package = "cobalt")
 m.out1 <- matchit(treat ~ age + educ + race +
 married + nodegree + re74 + re75,
 data = lalonde, method = "nearest")

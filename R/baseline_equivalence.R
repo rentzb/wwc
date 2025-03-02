@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples
-#' library(MatchIt); data("lalonde", package = "cobalt")
+#' library(MatchIt); library(magrittr); library(ggplot2); data("lalonde", package = "cobalt")
 #' m.out1 <- matchit(treat ~ age + educ + race +
 #' married + nodegree + re74 + re75,
 #' data = lalonde, method = "nearest")
